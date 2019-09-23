@@ -13,13 +13,14 @@ body{
 
 a{
     text-decoration: none;
+    color: #777777;
 }
 
 #name{
     background: #4aaaa5;
     color: azure;
     margin: auto;
-    left: 250px;
+    left: 280px;
     top: 0;
     bottom: 0%;
     position: absolute;
@@ -38,6 +39,7 @@ a{
     border-bottom-style: solid;
     border-width: 1px;
     border-color: #cccccc;
+    
 }
 
 .wrapper{
@@ -69,14 +71,12 @@ a{
     position: absolute;
     margin: auto;
     top: 35px;
-   /* padding-top: 0;*/ 
 }
 
 #image{
     float: left;
-    /*position: absolute;*/
-    width:150px;
-    height: 150px;
+    width:120px;
+    height: 120px;
     margin-right: 30px;
     margin-top: 20px;
     image-orientation: 90deg;
@@ -171,13 +171,6 @@ a{
 .text4{
     margin-right: 450px;
     float: right;
-    /*background-color: #4aaaa5;
-    color: #ffffff;
-   /* position: absolute;
-    padding: 1px;
-    color: #ffffff;*/
-    /*margin-right: 450px;*/
-    /*margin-bottom: 1px;*/
 }
 
 .text4 h4{
@@ -226,27 +219,6 @@ a{
     margin-bottom: 1px;
     
 }
-
-label{
-    width: 100%;
-}
-/*
-.text3 h4{
-    /*margin-right: 5px;
-    padding: 10px;
-    margin-bottom: -15px;
-    margin-top: -45px;
-    width: 140px;
-    text-align: center;
-    background-color: #4aaaa5;
-    position: absolute;
-    font-size: 14px;
-}*/
-
-/*
-    width: 100%;
-    padding-top: 10px;
-}*/
 
 input[type="text"], input[type="email"]{
     width: 100%;
@@ -302,7 +274,7 @@ textarea{
     display: flex;
 }
 
-#Copyright{
+#copyright{
     position: fixed;
     bottom: 0;
     left:50%;
